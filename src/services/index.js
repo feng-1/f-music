@@ -1,8 +1,9 @@
-import * as recommend  from './api/recommend'
-import * as player  from './api/player'
+import recommend from './api/recommend'
+import player from './api/player'
 
-const services = {
-  ...recommend,
-  ...player
+const api = {
+  recommend,
+  player
 }
-export default services
+
+export default api;

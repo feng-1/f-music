@@ -2,7 +2,6 @@ import React, { memo, useEffect } from 'react';
 import { renderRoutes } from 'react-router-config';
 
 import { dicoverMenu } from "@/common/local-data";
-import services from '@/services'
 
 import { NavLink } from 'react-router-dom';
 import {
@@ -14,7 +13,7 @@ export default memo(function HYDiscover(props) {
   const { route } = props;
 
   useEffect(() => {
-    // services.getTopBanners()
+    
   }, [])
 
   return (
